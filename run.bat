@@ -1,0 +1,1 @@
+start cmd /k "title MIDIToOSC & C:/Users/VICON/.pyenv/pyenv-win/versions/3.10.11/python.exe main.py"

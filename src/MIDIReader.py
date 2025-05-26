@@ -30,6 +30,9 @@ class MidiListener:
                 if msg.type == 'control_change':
                     if self.callback:
                         self.callback(msg)
+                elif msg.type == 'program_change':
+                    if self.callback:
+                        self.callback(msg)
                 else:
                     print(f"[MIDI] (Unhandled) {msg}")
 
